@@ -12,7 +12,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Rubik:wght@400;500&amp;display=swap" rel="stylesheet">
     
-        <link rel="stylesheet" href="css/norm.css">
+        <link rel="stylesheet" href="css/nor.css">
         <link rel="stylesheet" href="css/sty.css">
     </head>
 <body>
@@ -67,11 +67,11 @@
             <!-- contact -->
             <div class="contact">
                 <div class="number-and-name">
-                    <input class="contact-name" placeholder="Имя" type="text">
-                    <input class="contact-number" placeholder="Номер телефона" type="text">
+                    <input class="contact-name name" placeholder="Имя" type="text" aria-label="Имя" required>
+                    <input class="contact-number" placeholder="Номер телефона" type="tel" aria-label="Номер телефона" required>
                 </div>
-                <input class="contact-email" placeholder="Электронная почта" type="email">
-                <input class="contact-text" placeholder="Текст" type="text">
+                <input class="contact-email" placeholder="Электронная почта" type="email" aria-label="Электронная почта" required>
+                <textarea class="contact-text" placeholder="Текст" type="message" aria-label="Текст" required></textarea>
 
                 <div class="send-link">
                     <a href="#">Отправить</a>

@@ -182,6 +182,8 @@
     }
 
     .contact {
+        display: flex;
+        flex-direction:column ;
         
     }
 
@@ -191,8 +193,7 @@
 
     .contact-name {
         box-sizing: border-box;
-        width: 333px;
-        width: 100%;
+        width: 343px;
         background: #FFFFFF;
         border: 1px solid rgba(0, 0, 0, 0.2);
         border-radius: 10px;
@@ -204,7 +205,6 @@
     .contact-number {
         box-sizing: border-box;
         width: 343px;
-        width: 100%;
         background: #FFFFFF;
         border: 1px solid rgba(0, 0, 0, 0.2);
         border-radius: 10px;
@@ -228,12 +228,13 @@
         box-sizing: border-box;
         background: #FFFFFF;
         width: 696px;
-        height: 125px;
+        min-height: 180px;
         border: 1px solid rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         padding: 18px 20px ;
         margin-right: 10px;
         margin-bottom: 20px;
+        resize: vertical;
     }
     
 
@@ -241,13 +242,12 @@
 
     .send-link {
         display: flex;
-        flex-direction: row;
+        align-self: self-end;
         justify-content: center;
         align-items: center;
         padding: 13px 20px;
         background: #7296EC;
         border-radius: 10px;
-        width: 85px;
     }
 
     .send-link a{
@@ -281,7 +281,8 @@
         border-radius: 15px;
         padding:40px 20px;
         margin-bottom: 10px;
-        width: 494px;
+        width: 444px;
+        /* height: 230px; */
     }
     
     .text-main{
